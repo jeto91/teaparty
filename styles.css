@@ -1,0 +1,139 @@
+html {
+    font-family: Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color:rgb(255, 255, 255);
+    opacity:0.9;
+}
+
+body {
+    border: 1px solid rgb(253, 106, 1);
+    display:column;
+    background-color: black;
+    max-width: 1060;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+.hcontainer {
+    border-bottom:1px solid seashell;
+    background-color: black;
+    width: 1060;
+    position:fixed;
+    max-height: 69px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hcontainer ul {
+    position:relative;
+    right: 10px;
+    display: flex;
+    width:400px;
+    justify-content: space-around;
+}
+.hcontainer li {
+    text-decoration: underline;
+    justify-content: flex-end;
+
+}
+.hcontainer img {
+    position:absolute;
+    left:10px;
+    justify-content: flex-start;
+    height:50px;
+    align-items: center;
+    
+
+}
+.Bcontianer {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height:700px;
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.Bcontianer h2{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    top:160px;
+    
+
+}
+.Bcontianer h4{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    bottom:160px;
+    padding-bottom: 10px;
+    
+
+}
+.mcontainer {
+    width: 1000px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    flex-flow: row wrap;
+    flex: 1 300px;
+}
+.mcontainer h2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.mcontainer h3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.mcontainer figcaption {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Lcontainer {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height:580px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+
+}
+.Lcontainer h2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:100px;
+}
+.Lcontainer p {
+    background-color: black;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+    bottom: 100px;
+
+
+}
+
+
+.Ccontainer h2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+}
+.Ccontainer h4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+}
