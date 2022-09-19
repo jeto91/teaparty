@@ -7,25 +7,28 @@
     <title>teashop</title>
 </head>
 <body>
-    <header class="hcontainer">
-            <img  src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png"
+    <header class="header">
+            <img class="logo" src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png"
              alt="">
-            <ul>
-                <li>Mission</li>
-                <li>Featured Tea</li>
-                <li>Locations</li>
+            <ul class="navigation">
+                <a href="#mission"><li>Mission</li></a>
+                <a href="#featured"><li>Featured Tea</li></a>
+                <a href="#locations"><li>Locations</li></a>
             </ul>
     </header>
 
-    <section class="Bcontianer">    
+    <section id="mission" class="mission-container"> 
+        <div class="text-over">
 
-            <h2 class="Bbox">Our Mission</h2>
-            <h4 class="Bbox"> Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+            <h1 class="Bbox">Our Mission</h1>
+            <h2 class="Bbox"> Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h2>
+        </div>   
     </section>
     
-    <section class="mcontainer">
+    <section id="Featured">
         <h2> Tea of the Month</h2>
         <h3>What's Steepin at The Tea Cozy?</h3>
+    <div class="trend-container">
         <figure>
             <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg" 
             alt="A fullberry blitz tea"
@@ -61,14 +64,33 @@
             height="200px" />
             <figcaption>Bedford Bizarre Tea</figcaption>
         </figure>
+    </div>
     </section>
     
-    <section class="Lcontainer">
+    <section id="locations">
+    <div class="banner">
         <h2>Locations</h2>
-        <p>Downtown <br>384 West 4th St <br> Suite 108 <br> Portland,marine</p>
-        <p>East Bayside <br> 3433 Phiserman's Avenue <br> (Northwest Corner) <br> Portland, Marine</p>
-        <p>Oakdale <br> 515 Crescent Avenue <br> Second Floor <br> Portland, Marine </p>
-
+        <div class="box-container">
+        
+        <div class="box">
+        <h3>Downtown </h3>
+         <p>384 West 4th St </p>
+         <p>Suite 108</p>
+         <p>Portland,marine</p> 
+        </div>
+        <div class="box">
+        <h3>East Bayside </h3>
+        <p>3433 Phiserman's Avenue</p>
+        <p>(Northwest Corner)</p>  
+        <p>Portland, Marine</p>
+        </div>
+        <div class="box">
+        <h3>Oakdale </h3>
+        <p>515 Crescent Avenue</p> 
+        <p>Second Floor </p>  
+        <p>Portland, Marine </p>
+        </div>
+    </div>
     </section>
     
     <section class="Ccontainer">
