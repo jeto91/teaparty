@@ -25,6 +25,7 @@ html {
     height: 50px;
     float: left;
     padding-left: 10px;
+    padding-top: 10px;
 }
 .navigation {
     float: right;
